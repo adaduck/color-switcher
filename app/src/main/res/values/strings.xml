@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ColorSwitcher</string>
+    <string name="add_transition">Add transition</string>
+    <string name="switch_color">switch color</string>
+    <string name="hello">hello</string>
+    <string name="header">Header</string>
+</resources>

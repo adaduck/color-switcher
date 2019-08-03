@@ -1,0 +1,40 @@
+<resources>
+    <style name="AppTheme"/>
+
+    <style name="AppTheme.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryLight</item>
+        <item name="colorPrimaryDark">@color/secondaryLight</item>
+        <item name="colorAccent">@color/accentLight</item>
+        <!--material design colors -->
+        <item name="colorSecondary">?android:attr/colorPrimaryDark</item>
+        <!--our customs-->
+        <item name="colorTextPrimary">@color/primaryTextLight</item>
+        <item name="colorTextSecondary">@color/secondaryTextLight</item>
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryDark</item>
+        <item name="colorPrimaryDark">@color/secondaryDark</item>
+        <item name="colorAccent">@color/accentDark</item>
+        <!--material design colors -->
+        <item name="colorSecondary">?android:attr/colorPrimaryDark</item>
+        <!--our customs-->
+        <item name="colorTextPrimary">@color/primaryTextDark</item>
+        <item name="colorTextSecondary">@color/secondaryTextDark</item>
+    </style>
+
+    <style name="AppTheme.TextView">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorTextPrimary</item>
+    </style>
+
+    <style name="AppTheme.EditText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Don't do this. -->
+    <!--The resources are created at compile time.-->
+    <!--Colors won't change even if you wish hard enough as they don't point-->
+    <!--to selectable theme's attributes.-->
+    <!--<color name="colorBackground">@color/colorPrimary</color>-->
+    <!--<color name="colorText">@color/colorPrimary</color>-->
+    <!--<color name="colorBackground">@color/colorPrimary</color>-->
+
+    <!--Don't do this.-->
+    <!--Many components will crash as this is not pointing to color but to attribute-->
+    <!--<color name="colorBackground">?attr/colorAccent</color>-->
+
+    <color name="primaryLight">#efebe9</color>
+    <color name="secondaryLight">#bdb9b7</color>
+    <color name="accentLight">#5E35B1</color>
+    <color name="primaryTextLight">@android:color/black</color>
+    <color name="secondaryTextLight">@android:color/darker_gray</color>
+
+    <color name="primaryDark">#1a237e</color>
+    <color name="secondaryDark">#000051</color>
+    <color name="accentDark">#ff5722</color>
+    <color name="primaryTextDark">@android:color/white</color>
+    <color name="secondaryTextDark">@android:color/darker_gray</color>
+    <color name="colorButtonPressed">#00ACC1</color>
+</resources>
